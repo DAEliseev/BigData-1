@@ -32,3 +32,5 @@ JOIN dw.dim_customer c ON f.customer_sk = c.customer_sk
 JOIN dw.dim_product p ON f.product_sk = p.product_sk
 LIMIT 10;
 ```
+
+Выйдите: ```\q```
